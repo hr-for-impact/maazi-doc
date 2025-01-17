@@ -5,7 +5,6 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	site: 'https://hr-for-impact.github.io',
   base: 'maazi-doc',
-	output: "server",
 	integrations: [
 		starlight({
 			title: 'maazi doc',
