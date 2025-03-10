@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "version": "0.1.0",
+  "packageManager": "pnpm@8.15.4",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -12,9 +13,10 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/starlight": "^0.31.1",
-    "astro": "^5.2.4",
+    "@astrojs/node": "^9.1.2",
+    "@astrojs/starlight": "^0.32.2",
+    "astro": "^5.4.2",
     "sharp": "^0.33.5",
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.2"
   }
 }
